@@ -38,9 +38,6 @@ body {
     width: 670px;
     height: 440px;
     margin: 100px auto;
-   
-    
-    
   }
   section{
     padding: 30px;
@@ -59,13 +56,13 @@ body {
     flex-basis: 50%;
     border-bottom-right-radius: 12px;
     border-top-right-radius: 12px;
-    letter-spacing: -0,5px;
-    
-    
+    letter-spacing: -0.5px;
+    position: relative;
   }
   .velikosti{
     display: flex;
     list-style: none;
+    justify-content: space-around;
   }
   li{
     padding: 10px;
@@ -95,9 +92,35 @@ h1{
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
+    margin: 0px;
     }    
 h2{
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 500;
+    padding-top: 10px;
     }
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px 35px;
+  background-color:#f15f42 ;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  color: white;
+  border-radius: 8px;
+  font-size: 14px;
+}
+ul{
+  padding: 0;
+}
+.vybrano{
+  color: #f15f42;
+  border: #f15f42 solid 1px;
+  border-radius: 50%;
+}
+.popis{
+  padding: 20px 0px;
+  border-bottom: solid aquamarine 1px;
+}
